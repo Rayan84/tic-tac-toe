@@ -90,7 +90,7 @@ def getnumber
   while @game == true
     print "  #{@active_player} enter a number: "
     @active_player_input = gets.chomp
-    check_input(@active_player_input.to_i)
+    check_input(@active_player_input)
   end
   puts '  Game finished....'
 end
