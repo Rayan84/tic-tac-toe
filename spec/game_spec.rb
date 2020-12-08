@@ -1,6 +1,6 @@
 require_relative '../lib/player'
 require_relative '../bin/public'
-require '../lib/game'
+require_relative '../lib/game'
 
 describe Game do
   let(:player1) { Player.new('Rayan', 'x') }
