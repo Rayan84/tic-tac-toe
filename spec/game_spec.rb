@@ -1,5 +1,5 @@
 require_relative '../lib/player'
-require '../bin/public'
+require_relative '../bin/public'
 require '../lib/game'
 
 describe Game do
