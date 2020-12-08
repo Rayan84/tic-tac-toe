@@ -1,5 +1,7 @@
+# rubocop:disable Layout/LineLength
+
 require './bin/public'
-require '../lib/game'
+require_relative '../lib/game'
 
 describe 'Main' do
   describe '#game_start' do
@@ -37,3 +39,5 @@ describe 'Main' do
     end
   end
 end
+
+# rubocop:enable Layout/LineLength
