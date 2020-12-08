@@ -1,3 +1,4 @@
+# rubocop:disable Layout/LineLength
 def game_start
   "GAME RULES\n\n1. THE FIRST PLAYER TO GET 3 OF HER/HIS\nMARKS IN A ROW (UP, DOWN, ACROSS, OR\nDIAGONALLY) IS THE WINNER.'\n\n2. WHEN ALL 9 SQUARES ARE FULL, THE\nGAME IS OVER. IF NO PLAYER HAS 3\nMARKS IN A ROW, THE GAME ENDS IN A TIE.\n"
 end
@@ -56,3 +57,4 @@ end
 def ask_player
   gets.chomp
 end
+# rubocop:enable Layout/LineLength

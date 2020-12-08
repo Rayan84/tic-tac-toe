@@ -3,9 +3,10 @@ class Board
   def initialize
     @arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
   end
+
   def create_table
-    #system('cls')
-    #system('clear')
+    # system('cls')
+    # system('clear')
     @table = "
                TİC TAC TOE GAME
 
@@ -33,7 +34,7 @@ class Board
     puts "number options from check input are #{@number_options}"
     input = input.strip
     puts "User input is #{input}"
-    if @number_options.include?input
+    if @number_options.include? input
       update_table(input)
       win_check
       draw_check
@@ -43,7 +44,7 @@ class Board
       output("  Please enter a number from #{@number_options}")
     end
   end
-  #puts "active player in board class is #{@@active_player}"
+  # puts "active player in board class is #{@@active_player}"
 
   # update table after each player play
 
@@ -51,7 +52,7 @@ class Board
     puts 'update_table called'
     Player.change_player(@player_one.name, @player_two.name)
     puts "active player in update table is #{@active_player}"
-    #puts @arr
+    # puts @arr
     puts "player one mark is #{@player_one.mark}"
     @arr[num.to_i - 1] = if @active_player == @player2_name
                            @player_two.mark
@@ -60,8 +61,5 @@ class Board
                          end
     create_table
   end
-
-
-
 end
 @board = Board.new.create_table
