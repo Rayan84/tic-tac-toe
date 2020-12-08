@@ -1,55 +1,53 @@
-# Tic Tac Toe
+# Project 2 - Ruby : Tic Tac Toe with RSpec
 
-In this project, we built tic tac toe game from scratch using Ruby progamming language, the project is a requirement in Microverse technical curriculum.
+## Screen Shot
 
-### Game rules and instructions
+![screenshot](screenshot.png)
 
-This game is simple and very popular, it's played by two players, each one gets a distinguished symbol (usually X or O).
-The objective for each player is to place own sybmol on three squares that comprise a straight line. The line may be horizontal, vertical or diagonal. Whoever acheives this goal first wins.
-In case of all the squares get occupied without any player winning, it's called a tie or draw.
+In this project, we applied RSpec tests on the methods of our tic-tac-toe game in the following components:
 
-After every tie or winning, the game will give option to play again or quit by prompting the player to enter Y or N respectivly
-  
+1. Player class methods
+2. Public.rb file methods
+3. Game class methods
 
-### Screenshots
-<img src='./screenshot.png'>
 
-### How to start the game:
-You can either play the game online by clicking on the link below:
+## Built With
 
-Link: [Live Demo Link](https://repl.it/@Rayan84/tic-tac-toe#.replit)
+- Ruby
+- RSpec
+- Rubocop
+- VSCode
+- Atom
 
-or you can play it on your computer by following these steps:
 
-1. Download the repository from this [link](https://github.com/ahmetbozaci/tic-tac-toe/archive/readme_game_instructions.zip)
-2. Unzip the files
-3. Open the command prompt or terminal and browse to folder containing main.rb file
-4. Type ruby main.rb 
-5. Press enter
- 
+## Getting Started
 
-### :hammer: Built With
+Follow these steps to get a local copy up and running :
 
-* Ruby
-* Atom
-* VScode
-* Rubocop
+1. Install `git` on your local machine.
+2. Type `git init` in the Terminal.
+3. Clone the repository to your local machine `https://github.com/Rayan84/tic-tac-toe.git`.
+4. Cd into the repository `cd tic-tac-toe`.
+5. In the bash terminal enter `rspec`
 
-###  :bust_in_silhouette: Worked on this challenge:
+## Authors
+
+## Omar Rashad
+
+* GitHub: [ @od-c0d3r](https://github.com/od-c0d3r)
+* Twitter:[ @od_coder](https://twitter.com/od_coder)
+* LinkedIn:[ @omarrashad](https://www.linkedin.com/in/omarrashad/)
+
 ## Rayan Rassam
-* Github:[@Rayan84](https://github.com/Rayan84)
-* Twitter:[@Rayan65096267](https://twitter.com/Rayan65096267)
-* LinkedIn:[@rayan rassam](https://www.linkedin.com/in/rayan-rassam-18a0a426/)
+* Github:[ @Rayan84](https://github.com/Rayan84)
+* Twitter:[ @Rayan65096267](https://twitter.com/Rayan65096267)
+* LinkedIn:[ @rayan rassam](https://www.linkedin.com/in/rayan-rassam-18a0a426/)
 
 
-## Ahmet Bozacı
-* Github:[@ahmtbozaci](https://github.com/ahmetbozaci)
-* Twitter:[@ahmtbozaci](https://twitter.com/ahmtbozaci)
-* LinkedIn:[@ahmtbozaci](https://www.linkedin.com/in/ahmetbozaci/)
+## Contributing
 
-### Credits
-The project is part of Microverse Technical curriculum - Ruby section
+Contributions, issues, and feature requests are welcome!
 
-### Contribution
-Feedbacks, issues or feature requests are welcomed!
-Please follow this link to create an issue [Link](https://github.com/ahmetbozaci/tic-tac-toe/issues) and help me improve!
+## Show your support
+
+Give a star if you like this project!
