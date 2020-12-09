@@ -1,6 +1,6 @@
-require_relative '../lib/player'
-require_relative '../lib/game'
-require_relative './public'
+require_relative '../lib/player.rb'
+require_relative '../lib/game.rb'
+require_relative './public.rb'
 
 game = Game.new('player1', 'player2', 'mark1', 'mark2')
 
