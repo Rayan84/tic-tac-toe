@@ -31,7 +31,6 @@ describe Game do
    |    #{new_game.arr[6]}    |    #{new_game.arr[7]}    |    #{new_game.arr[8]}    |
    |         |         |         |
    +-----------------------------+
-
 "
 
       expect(new_game.create_table).to eql(expected_table)
@@ -54,7 +53,6 @@ describe Game do
    |    #{new_game.arr[6]}    |    #{new_game.arr[7]}    |    #{new_game.arr[8]}    |
    |         |         |         |
    +-----------------------------+
-
 "
       new_game.update_table('1')
       new_game.update_table('2')
@@ -65,6 +63,15 @@ describe Game do
 
   describe '#getnumber' do
     it 'Gets input from user until game finished' do
+      new_game.stub(:gets) do
+        @counter ||= 0
+        @test_in ||= 1
+        response = @test_in
+        @test_in += 1
+        @counter += 1
+        response = 'n' if @counter == 8
+        response.to_s
+      end
       expect(new_game.getnumber).to eql(nil)
     end
   end
